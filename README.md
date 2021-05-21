@@ -1,3 +1,12 @@
+## Repo Structure
+[README.md](./README.md) Overview of this project  
+[data-modeling.ipynb](./data-modeling.ipynb) - Final Notebook  
+[feature-engineering.ipynb](./feature-engineering.ipynb) - Notebook Used for Experimentation and EDA  
+[data-exploration.ipynb](./data-exploration.ipynb) - Initial Notebook for cleaning(mostly unused)  
+[customer-churn.csv](./customer-churn.csv) - dataset  
+[resources](./resources) - Contains Images used in presentation and README  
+[SyriaTel Customer Churn.pdf](./SyriaTel Customer Churn) - Presentation Slides
+
 # SyriaTel Customer Churn Prediction
 **Author:** Christopher Varghese
 
@@ -50,13 +59,4 @@ The final model was the KNN model. This model included a pipeline that scaled an
 **Next Steps**
 Although this is a high performing model, there are improvements that can be made. Further tuning of the Random Forest model and more feature engineering may yield some improvement.
 
-While this model is only able to predict customers that are soon to churn, it has no effect on wether these customers will churn or not. The next steps would be to implement various strategies for customer retention such as directly intervening with customers that are flagged by the model as soon to churn. If a successful strategy is implemented, SyriaTel may be capable of decreasing their churn rate which is currently 15%. Since the model currently does flag some customers that are not churning as soon to churn, it is important to evaluate a the costs and benefits of providing every customer that is flagged for churning a certain promotion or some kind of incentive not to churn. Finally, a secondary model can be explored after the business begins implementing various customer retention strategies to determine which strategies work and on which customers it has the highest probability of working on.
-
-## Repo Structure
-[README.md](./README.md) Overview of this project  
-[data-modeling.ipynb](./data-modeling.ipynb) - Final Notebook  
-[feature-engineering.ipynb](./feature-engineering.ipynb) - Notebook Used for Experimentation and EDA  
-[data-exploration.ipynb](./data-exploration.ipynb) - Initial Notebook for cleaning(mostly unused)  
-[customer-churn.csv](./customer-churn.csv) - dataset  
-[resources](./resources) - Contains Images used in presentation and README  
-[SyriaTel Customer Churn.pdf](./SyriaTel Customer Churn) - Presentation Slides
+While this model is only able to predict customers that are soon to churn, it has no effect on wether these customers will churn or not. The next steps would be to implement various strategies for customer retention such as directly intervening with customers that are flagged by the model as soon to churn. If a successful strategy is implemented, SyriaTel may be capable of decreasing their churn rate which is currently 15%. Since the model currently does flag some customers that are not churning as soon to churn, it is important to evaluate a the costs and benefits of providing every customer that is flagged for churning a certain promotion or some kind of incentive not to churn. Finally, a secondary model can be explored after the business begins implementing various customer retention strategies to determine which strategies work and on which customers it has the highest probability of working on
