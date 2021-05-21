@@ -47,6 +47,15 @@ The random forest model was fitted after scaling and resampling the data. The cr
 
 The final model was the KNN model. This model included a pipeline that scaled and resampled the training data which helped the prediction power of the model. The model's parameters were tuned by testing the optimal value of k. The perfomance of the model on predicting all of the unseen test data was better than expected with a recall score of 87.2%. Since the testing data was unseen by the model up until this point, this test is comparable to the actual performance of the model in the real world. The cross validation(5 folds) on the entirety of the data yielded recall scores of 0.79381443, 0.78350515, 0.87628866, 0.83333333, and 0.82291667, for an average of 0.8219716494845362. My conclusion is that this model is proficient in predicting the number of customers soon to churn so this will be helpful to SyriaTel's inititiave of increasing customer retention.
 
+**Next Steps**
 Although this is a high performing model, there are improvements that can be made. Further tuning of the Random Forest model and more feature engineering may yield some improvement.
 
 While this model is only able to predict customers that are soon to churn, it has no effect on wether these customers will churn or not. The next steps would be to implement various strategies for customer retention such as directly intervening with customers that are flagged by the model as soon to churn. If a successful strategy is implemented, SyriaTel may be capable of decreasing their churn rate which is currently 15%. Since the model currently does flag some customers that are not churning as soon to churn, it is important to evaluate a the costs and benefits of providing every customer that is flagged for churning a certain promotion or some kind of incentive not to churn. Finally, a secondary model can be explored after the business begins implementing various customer retention strategies to determine which strategies work and on which customers it has the highest probability of working on.
+
+## Repo Structure
+[README.md](./README.md) Overview of this project  
+[data-modeling.ipynb](./data-modeling.ipynb) - Final Notebook  
+[feature-engineering.ipynb](./feature-engineering.ipynb) - Notebook Used for Experimentation and EDA  
+[data-exploration.ipynb](./data-exploration.ipynb) - Initial Notebook for cleaning(mostly unused)  
+[customer-churn.csv](./customer-churn.csv) - dataset  
+[resources](./resources) - Contains Images used in presentation and README  
