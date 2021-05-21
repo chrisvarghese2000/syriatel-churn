@@ -16,3 +16,5 @@ Categorical variables where encoded to numerical values for the modeling process
 
 ## Exploratory Data Analysis
 Complete analysis of features and experimentation can be found here:
+
+![class-imbalance-bar](resources/class-imbalance.png)
