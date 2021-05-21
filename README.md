@@ -58,5 +58,5 @@ While this model is only able to predict customers that are soon to churn, it ha
 [feature-engineering.ipynb](./feature-engineering.ipynb) - Notebook Used for Experimentation and EDA  
 [data-exploration.ipynb](./data-exploration.ipynb) - Initial Notebook for cleaning(mostly unused)  
 [customer-churn.csv](./customer-churn.csv) - dataset  
-[resources](./resources) - Contains Images used in presentation and README
+[resources](./resources) - Contains Images used in presentation and README  
 [SyriaTel Customer Churn.pdf](./SyriaTel Customer Churn) - Presentation Slides
